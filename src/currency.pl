@@ -128,6 +128,7 @@ sub getReport
 
 	foreach (@$struct)
 	{
+		$_->{"date"} = join("-", reverse(split(/\./, $_->{"date"})));
 		push(@report, sprintf($format, $_->{"date"}, $_->{"number_of_units"},
 			$_->{"exchange_rate"}));
 	}
