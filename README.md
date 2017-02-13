@@ -6,3 +6,5 @@ optional package XML::Simple (sudo apt-get install libxml-simple-perl)
          -s      required start date in format yyyy-mm-dd
          -e      optional end date in format yyyy-mm-dd (should be less than start date
          -c      required currency; valid values: EUR,RU,CAD,USD
+
+test branch
